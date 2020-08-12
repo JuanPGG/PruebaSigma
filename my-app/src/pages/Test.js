@@ -15,7 +15,7 @@ function Test() {
         <Title />
       </div>
       <div className="row mt-4">
-        <div className="col-md-6">
+        <div className="col-md-6 d-flex justiy-content-center align-items-center">
           <Image />
         </div>
         <div className="col-md-6">
