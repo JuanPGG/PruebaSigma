@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap');
+.card{
+    border-radius: 30px !important;
+    border-top-left-radius: 15px !important;
+    box-shadow: 0 0 14px 0px rgba(201, 200, 200, 0.534);
+}
+label,
+.form-group > select,
+.form-group > input,
+*::-webkit-input-placeholder,
+.form-group > button{
+    font-family: 'Roboto', sans-serif;
+}
+
+label{
+    font-weight: 900;
+}
+.form-group > select{
+    color: rgb(128, 128, 128);
+}
+.form-group > select,
+*::-webkit-input-placeholder{
+    font-weight: 500;
+}
+.form-group > input,
+.form-group > select{
+    border-color: rgba(187, 187, 187, .6) !important;
+}
+*::-webkit-input-placeholder {
+    font-size: 15px;
+    color: rgba(128, 128, 128, .6);
+  }
+.form-group > button{
+    width: 130px;
+    border-radius: 75px;
+    font-size: 15px;
+    font-weight: 400;
+}
